@@ -2,8 +2,8 @@ name: 'run'
 
 on:
   schedule:
-    # run 16:30 every day
-    - cron: '30 16 * * *'
+    # run 06:30 every day
+    - cron: '30 06 * * *'
   workflow_dispatch:
 
 jobs:
